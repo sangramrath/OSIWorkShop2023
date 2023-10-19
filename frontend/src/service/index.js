@@ -4,14 +4,14 @@ const DEV = true;
 
 export const CONFIG = !DEV ? {
     url: 'http://localhost:5000',
-    appName: 'demo-hotel',
-    clientId: 'demo-hotel:default',
-    clientSecret: 'xttxlnqin0qbsasprmzknzthrtayygd6x3rsiyxczhgx'
+    appName: 'osi-event-hotels',
+    clientId: 'osi-event-hotels:default',
+    clientSecret: ''
 } : {
-    url:  'http://localhost:5000',
-    appName: 'demo-hotel',
-    clientId: 'demo-hotel:default',
-    clientSecret: 'xttxlnqin0qbsasprmzknzthrtayygd6x3rsiyxczhgx'
+    url: 'http://localhost:5000',
+    appName: 'osi-event-hotels',
+    clientId: 'osi-event-hotels:default',
+    clientSecret: ''
 };
 
 function getBearerToken() {
